@@ -21,11 +21,22 @@ duckdb
 
 ### For the Python Client
 
-As a bare minimum, we can just `pip install duckdb`. See the [notebook](duckdb_python_client.ipynb) for more packages that might be needed to connect to GCS or run from a jupyter notebook
+You can install from here using 
 
+```bash
+poetry install --no-root
+```
+
+And then activate your virtualenv
+
+If you're using a new project, as a bare minimum, we can just `pip install duckdb`. See the [notebook](duckdb_python_client.ipynb) for more packages that might be needed to connect to GCS or run from a jupyter notebook
 ### VSCode Extension
 
 The `DuckDB Sql Tools` extension is quite useful for viewing and quering the data like a normal DB from VSCode
+
+### Data
+
+I got the data from [the repo](https://github.com/mehd-io/duckdb-playground-tutorial/tree/main/data) of the duckdb intro tutorial
 
 ### Tutorials
 

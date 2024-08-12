@@ -1,3 +1,14 @@
+# Running DuckDB from the CLI
+
+Let's clean up any past runs
+
+```bash
+rm -r db
+mkdir db
+rm -r output
+mkdir output
+```
+
 Launch duckdb CLI
 
 ```bash
